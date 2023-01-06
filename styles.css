@@ -1,0 +1,545 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* -------------header------------- */
+.header {
+    width: 100%;
+    min-height: 126vh;
+    display: block;
+    background-image: url(img/star-cafe-bg-01.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+.intro {
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 41%;
+    width: 28%;
+    text-align: center;
+    background-color: rgb(51, 44, 44);
+    background-size: 80%;
+    padding: 51px 1px;
+    opacity: 0.6;
+    border-radius: 2%;
+    box-sizing: border-box;
+}
+
+.intro h1 {
+    font-size: 50px;
+    margin-bottom: 10%;
+}
+
+.intro p {
+    font-size: 20px;
+    line-height: 4%;
+}
+
+.intro-p {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    width: 28%;
+    text-align: center;
+    background-color: rgb(51, 44, 44);
+    background-size: 40%;
+    padding: 30px 1px;
+    opacity: 0.6;
+    border-radius: 2%;
+    box-sizing: border-box;
+}
+
+/* ------------button------------ */
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 38px;
+    font-size: 15px;
+    font-weight: 30%;
+    background: rgb(51, 44, 44);
+    position: relative;
+    cursor: pointer;
+    margin-top: 50%;
+    left: 48%;
+    opacity: 0.9;
+    border-radius: 5%;
+    box-sizing: border-box;
+}
+
+.hero-btn:hover {
+    border: 1px solid #815351;
+    background: #a0645f;
+    transition: 1s;
+    color: black;
+}
+
+/* -----------nav bar-------- */
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #e9776f;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+/* --------------middle session--------- */
+.middle-session {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/star-cafe-bg-02.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 10%;
+    overflow: auto;
+
+}
+
+.row {
+    width: 35%;
+    margin-left: 12%;
+    margin-top: 5%;
+    display: block;
+    background-color: #815351;
+    background-size: 5%;
+    background-position: center;
+    position: absolute;
+    border-radius: 2%;
+    box-sizing: border-box;
+
+}
+
+.middle-session h1 {
+    text-align: center;
+    font-weight: 55%;
+    background-color: rgb(139, 135, 135);
+    border: 1px solid #999595;
+    box-sizing: border-box;
+    background-size: 1%;
+    border-radius: 2%;
+    padding: 2% 1%;
+    margin: 1% 40%;
+    color: #141313;
+}
+
+.container {
+    margin: 20px 20px 0 0;
+    overflow: auto
+}
+
+.thumb {
+    float: left;
+    padding-bottom: 6%;
+}
+
+.thumb img {
+    display: block;
+    margin-top: 35px;
+    margin-left: 10%;
+}
+
+.menu {
+    margin-top: 37px;
+    display: block;
+    float: right;
+    margin-left: 20px;
+    
+}
+
+.content {
+    font-weight: bold;
+    font-size: 180%;
+}
+
+.row1 {
+    width: 35%;
+    margin-right: 10%;
+    margin-top: 5.1%;
+    display: block;
+    background-color: #815351;
+    background-size: 5%;
+    background-position: center;
+    position: relative;
+    border-radius: 2%;
+    box-sizing: border-box;
+    float: right;
+}
+
+/* ------------About------------- */
+.about {
+    width: 100%;
+    min-height: 110vh;
+    background-image: url(img/star-cafe-bg-03.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    position: relative;
+
+}
+
+.row2 {
+    margin-left: 55%;
+    margin-top: 0%;
+    margin-right: 10%;
+
+}
+.thumb-l {
+    float: right;
+    padding-bottom: 6%;
+}
+.thumb-l img {
+    display: block;
+    margin-top: 35px;
+    margin-left: 0%;
+}
+.menu-l {
+    margin-top: 37px;
+    margin-left: 5%;
+    display: block;
+    float: left;
+}
+.content-l {
+    font-weight: bold;
+    font-size: 180%;
+}
+.a-container {
+    margin-top: 10%;
+    background-color: rgb(243, 237, 237);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    padding: 3% 2%;
+    box-sizing: border-box;
+    border-radius: 2%;
+    opacity: 0.7;
+}
+.a-container h1{
+    margin: 3% 1%;
+    font-size: 40px;
+    font-weight: 100;
+    padding-bottom: 3%;
+}
+.about-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 38px;
+    font-size: 15px;
+    font-weight: 30%;
+    background: rgb(51, 44, 44);
+    position: relative;
+    cursor: pointer;
+    margin-top: 110%;
+    left: 2%;
+    opacity: 0.9;
+    border-radius: 8%;
+    box-sizing: border-box;
+}
+.about-btn:hover{
+    border: 1px solid #141313;
+    background: #aa9894;
+    transition: 1s;
+    color: black;
+}
+
+/* ---------contact us----------- */
+.contact{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/star-cafe-bg-04.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin-top: 0%;
+}
+.row3{
+    margin-left: 1%;
+    position: absolute;
+}
+.container-c{
+    background-color: rgb(243, 237, 237);
+    margin-top: 30%;
+    margin-left: 15%;
+    padding: 15% 5%;
+    width: 100%;
+    opacity: 0.7;
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+.hero-btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 38px;
+    font-size: 15px;
+    font-weight: 30%;
+    background: rgb(51, 44, 44);
+    position: relative;
+    cursor: pointer;
+    margin-top: 12%;
+    margin-left: 29%;
+    opacity: 0.9;
+    border-radius: 5%;
+    box-sizing: border-box;
+}
+.hero-btn1:hover{
+    border: 1px solid #141313;
+    background: #5c5554;
+    transition: 1s;
+    color: black;
+}
+.container-c h1{
+    margin-bottom: 7%;
+    font-size: 30px;
+    font-weight: 100;
+}
+.row4{
+    margin-left: 30%;
+    position:absolute;
+    
+}
+.container1-c{
+    background-color: rgb(243, 237, 237);
+    margin-top: 28%;
+    margin-left: 65%;
+    padding: 12% 5%;
+    width: 100%;
+    opacity: 0.7;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 2%;
+}
+.container1-c input, .container1-c textarea{
+    width: 70%;
+    border: none;
+    border-style: solid gold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7px;
+    padding-right: 0px;
+    margin-bottom: 2%;
+    opacity: 0.9;
+    border-bottom:3px solid gold;
+}
+.hero-btn2{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 30%;
+    background: rgb(206, 192, 2);
+    position:relative;
+    cursor: pointer;
+    margin-left:70%;
+    opacity: 0.9;
+    border-radius: 8%;
+    box-sizing: border-box;
+}
+.hero-btn2:hover{
+    border: 1px solid gold;
+    background: gold;
+    transition: 1s;
+    color: black;
+}
+h4{
+    margin-top: 50%;
+    margin-left:10% ;
+    color: #fff;
+    padding-bottom: 5%;
+    font-size: 120%;
+    font-weight: 100;
+}
+/* ---------media query--------- */
+@media(max-width:700px){
+    /* ------header-------- */
+    .intro h1 {
+        font-size: 30px;
+        margin-bottom: 14%;
+    }
+    
+    .intro p {
+        font-size: 10px;
+        line-height: 4%;
+    }
+    .intro-p {
+        top: 40%;
+        left: 20%;
+        width: 70%;
+    }
+    .intro h1{
+        font-size: 20px;
+    }
+    .intro-p p{
+        font-size: 20px;
+    }
+    .hero-btn {
+        margin-top: 150%;
+        left: 38%; 
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -250px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .bi{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+    /* -------menu----- */
+    .middle-session h1 {
+        font-size: 20px;
+        padding: 3% 1%;
+        margin: 5% 20%;
+    }
+    .menu {
+        margin-top: 37px;
+        display: block;
+        position: relative;
+        float: right;
+        padding-bottom: 1px;
+    } 
+    
+    .content {
+        font-weight: bold;
+        font-size: 130%;
+        margin: 0%;
+        padding-bottom: 12%;
+    }
+    .content-l{
+        
+        font-size: 130%;
+        margin: 7%;
+    }
+    .thumb img {
+        margin-top: 32px;
+        margin-left: 10%;
+    }
+    .a-container h1{
+        margin: 3% 1%;
+        font-size: 20px;
+         font-weight: 100; 
+        /* padding-bottom: 3%;  */
+    }
+    .row2 {
+        margin-left: 55%;
+        margin-top: 0%;
+        margin-right: 10%;
+    
+    }
+    .about {
+        width: 100%;
+        min-height: 110vh;
+        background-image: url(img/star-cafe-bg-03.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 2%;
+        position: relative;
+        font-size: 12px;
+    }
+    .a-container {
+        margin-top: 30%;
+        margin-right: 10%;
+    }
+    .about-btn{
+        margin-top: 350%;
+    }
+    .container-c{
+        background-color: rgb(243, 237, 237);
+        margin-top: 20%;
+        margin-left: 1%;
+        padding: 5% 5%;
+        width: 40%;
+        font-size: 13px;
+    }
+    .container1-c{
+        background-color: rgb(243, 237, 237);
+        margin-top: 28%;
+        margin-left: 35%;
+        padding: 12% 5%;
+        width: 60%;
+        opacity: 0.7;
+        box-sizing: border-box;
+        position: relative;
+        border-radius: 2%;
+    }
+    .hero-btn1{
+        font-size: 10px;
+        margin-left: 9px;
+    }
+    h4{
+        margin-top: 150%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
